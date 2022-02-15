@@ -16,6 +16,7 @@ const fibonacci = function (str) {
     nextTerm;
 
   for (let i = 1; i < number; i++) {
+    // f(next term) = f(n-1) + f(n-2) 
     nextTerm = n1 + n2;
     n1 = n2;
     n2 = nextTerm;
