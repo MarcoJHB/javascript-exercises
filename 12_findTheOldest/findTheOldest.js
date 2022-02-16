@@ -43,7 +43,7 @@ const findTheOldest = function (array) {
   });
 };
 
-console.log(findTheOldest(people).name);
+// console.log(findTheOldest(people).name);
 
 // Do not edit below this line
 module.exports = findTheOldest;
